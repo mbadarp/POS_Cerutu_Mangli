@@ -38,6 +38,7 @@ Partial Class FormMenuUtama
         Me.CheckPackagingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CerutuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SupportMaterialToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SiapJualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PembelianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -58,7 +59,6 @@ Partial Class FormMenuUtama
         Me.STLLabel9 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.STLLabel10 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.SiapJualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -155,6 +155,12 @@ Partial Class FormMenuUtama
         Me.SupportMaterialToolStripMenuItem1.Name = "SupportMaterialToolStripMenuItem1"
         Me.SupportMaterialToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
         Me.SupportMaterialToolStripMenuItem1.Text = "Support Material"
+        '
+        'SiapJualToolStripMenuItem
+        '
+        Me.SiapJualToolStripMenuItem.Name = "SiapJualToolStripMenuItem"
+        Me.SiapJualToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.SiapJualToolStripMenuItem.Text = "Siap Jual"
         '
         'TransaksiToolStripMenuItem
         '
@@ -274,12 +280,6 @@ Partial Class FormMenuUtama
         'Timer1
         '
         Me.Timer1.Enabled = True
-        '
-        'SiapJualToolStripMenuItem
-        '
-        Me.SiapJualToolStripMenuItem.Name = "SiapJualToolStripMenuItem"
-        Me.SiapJualToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
-        Me.SiapJualToolStripMenuItem.Text = "Siap Jual"
         '
         'FormMenuUtama
         '
