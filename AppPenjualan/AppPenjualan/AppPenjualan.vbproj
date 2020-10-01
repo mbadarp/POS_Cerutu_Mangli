@@ -110,11 +110,23 @@
       <DependentUpon>CRV_lapjual.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CRV_QualityControl2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRV_QualityControl2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CRV_strukjual.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CRV_strukjual.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormCetakQualityControl2.Designer.vb">
+      <DependentUpon>FormCetakQualityControl2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCetakQualityControl2.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLapPembelian.Designer.vb">
       <DependentUpon>FormLapPembelian.vb</DependentUpon>
@@ -203,9 +215,16 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_lapjual.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CRV_QualityControl2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRV_QualityControl2.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRV_strukjual.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_strukjual.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCetakQualityControl2.resx">
+      <DependentUpon>FormCetakQualityControl2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLapPembelian.resx">
       <DependentUpon>FormLapPembelian.vb</DependentUpon>
