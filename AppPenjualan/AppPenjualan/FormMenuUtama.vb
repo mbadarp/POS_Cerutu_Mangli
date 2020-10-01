@@ -71,7 +71,13 @@
         FormPelanggan.ShowDialog()
     End Sub
 
+<<<<<<< HEAD
     Private Sub SupportMaterialToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SupportMaterialToolStripMenuItem.Click
         FormSupportMaterial.ShowDialog()
+=======
+   
+    Private Sub CerutuToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CerutuToolStripMenuItem.Click
+        FormMasterCerutu.ShowDialog()
+>>>>>>> 43299094e750354125a889b33cf817e2d21f348d
     End Sub
 End Class

@@ -98,12 +98,6 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CRPelanggan.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CRPelanggan.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="CRV_beli.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -116,16 +110,22 @@
       <DependentUpon>CRV_lapjual.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CRV_QualityControl2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRV_QualityControl2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CRV_strukjual.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CRV_strukjual.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FormCetakPelanggan.Designer.vb">
-      <DependentUpon>FormCetakPelanggan.vb</DependentUpon>
+    <Compile Include="FormCetakQualityControl2.Designer.vb">
+      <DependentUpon>FormCetakQualityControl2.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormCetakPelanggan.vb">
+    <Compile Include="FormCetakQualityControl2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLapPembelian.Designer.vb">
@@ -150,6 +150,12 @@
       <DependentUpon>FormMasterAdmin.vb</DependentUpon>
     </Compile>
     <Compile Include="FormMasterAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasterCerutu.Designer.vb">
+      <DependentUpon>FormMasterCerutu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterCerutu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMenuUtama.vb">
@@ -213,10 +219,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CRPelanggan.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>CRPelanggan.vb</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="CRV_beli.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_beli.vb</LastGenOutput>
@@ -225,12 +227,16 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_lapjual.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CRV_QualityControl2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRV_QualityControl2.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRV_strukjual.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_strukjual.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCetakPelanggan.resx">
-      <DependentUpon>FormCetakPelanggan.vb</DependentUpon>
+    <EmbeddedResource Include="FormCetakQualityControl2.resx">
+      <DependentUpon>FormCetakQualityControl2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLapPembelian.resx">
       <DependentUpon>FormLapPembelian.vb</DependentUpon>
@@ -243,6 +249,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMasterAdmin.resx">
       <DependentUpon>FormMasterAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterCerutu.resx">
+      <DependentUpon>FormMasterCerutu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuUtama.resx">
       <DependentUpon>FormMenuUtama.vb</DependentUpon>

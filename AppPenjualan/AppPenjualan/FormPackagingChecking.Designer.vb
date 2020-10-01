@@ -71,6 +71,7 @@ Partial Class FormPackagingChecking
         Me.Label20 = New System.Windows.Forms.Label()
         Me.txt_kodecheck = New System.Windows.Forms.TextBox()
         Me.cbo_kodebarang = New System.Windows.Forms.ComboBox()
+        Me.btn_cetak = New System.Windows.Forms.Button()
         CType(Me.dgv_checkpack, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -532,12 +533,22 @@ Partial Class FormPackagingChecking
         Me.cbo_kodebarang.Size = New System.Drawing.Size(121, 21)
         Me.cbo_kodebarang.TabIndex = 1
         '
+        'btn_cetak
+        '
+        Me.btn_cetak.Location = New System.Drawing.Point(643, 275)
+        Me.btn_cetak.Name = "btn_cetak"
+        Me.btn_cetak.Size = New System.Drawing.Size(75, 23)
+        Me.btn_cetak.TabIndex = 23
+        Me.btn_cetak.Text = "Cetak"
+        Me.btn_cetak.UseVisualStyleBackColor = True
+        '
         'FormPackagingChecking
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(896, 559)
+        Me.Controls.Add(Me.btn_cetak)
         Me.Controls.Add(Me.cbo_kodebarang)
         Me.Controls.Add(Me.txt_kodecheck)
         Me.Controls.Add(Me.Label20)
@@ -626,4 +637,5 @@ Partial Class FormPackagingChecking
     Friend WithEvents LBL_totalafter As System.Windows.Forms.Label
     Friend WithEvents txt_cukai As System.Windows.Forms.TextBox
     Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents btn_cetak As System.Windows.Forms.Button
 End Class

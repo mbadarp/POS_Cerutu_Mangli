@@ -242,4 +242,8 @@ Public Class FormPackagingChecking
             End If
         End If
     End Sub
+
+    Private Sub btn_cetak_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_cetak.Click
+        FormCetakQualityControl2.ShowDialog()
+    End Sub
 End Class
