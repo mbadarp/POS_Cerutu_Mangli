@@ -233,7 +233,7 @@ Public Class FormPackagingChecking
                 MsgBox("Silahkan isi semua data")
             Else
                 Call Koneksi()
-                Dim UpdateData As String = "Update tb_checkpack set inspector='" & txt_inspector.Text & "',date='" & dt_tglanalisis.Text & "',brand='" & cbo_brand.Text & "' where id_pack='" & txt_kodecheck.Text & "'"
+                Dim UpdateData As String = "Update tb_checkpack set inspector='" & txt_inspector.Text & "',date='" & dt_tglanalisis.Text & "',brand='" & cbo_brand.Text & "',cigarsize='" & cbo_cigarsize.Text & "',cigarshape='" & cbo_cigarshape.Text & "',size='" & txt_size.Text & "',color='" & txt_color.Text & "',texture='" & txt_texture.Text & "',crack='" & txt_crack.Text & "',total_before='" & LBL_totalbefore.Text & "',cellop_during='" & txt_cellopduring.Text & "',ring='" & txt_ring.Text & "',total_during='" & LBL_totalduring.Text & "',cellop_after='" & txt_cellopafter.Text & "',prod_code='" & txt_prodcode.Text & "',cukai='" & txt_cukai.Text & "',total_after='" & LBL_totalafter.Text & "',remarks='" & txt_remarks.Text & "',kodebarang='" & cbo_kodebarang.Text & "' where id_pack='" & txt_kodecheck.Text & "'"
                 Cmd = New OdbcCommand(UpdateData, Conn)
                 Cmd.ExecuteNonQuery()
                 MsgBox("Update data berhasil")
