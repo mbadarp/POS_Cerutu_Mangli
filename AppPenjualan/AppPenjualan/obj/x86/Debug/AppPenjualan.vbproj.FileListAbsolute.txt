@@ -109,3 +109,4 @@ C:\xampp\htdocs\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPen
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormCetakQualityControl2.resources
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMasterCerutu.resources
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormCetakPel.resources
+C:\xampp\htdocs\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormCetakDataCerutu.resources

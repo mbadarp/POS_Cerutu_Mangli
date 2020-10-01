@@ -233,6 +233,7 @@ Partial Class FormMasterCerutu
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label20)
         Me.Name = "FormMasterCerutu"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormMasterCerutu"
         CType(Me.dgv_datacerutu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
