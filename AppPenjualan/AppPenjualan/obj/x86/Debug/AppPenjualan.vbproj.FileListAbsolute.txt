@@ -102,5 +102,10 @@ C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Deb
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.Resources.resources
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.vbproj.GenerateResource.Cache
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormCetakPelanggan.resources
+C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormSupportMaterial.resources
 >>>>>>> 560d32bbdfd78ae72a19052e961b132bf426a79a
 C:\xampp\htdocs\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMasterCerutu.resources
+>>>>>>> 43299094e750354125a889b33cf817e2d21f348d
+C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormCetakQualityControl2.resources
+C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMasterCerutu.resources
+C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormCetakPel.resources
