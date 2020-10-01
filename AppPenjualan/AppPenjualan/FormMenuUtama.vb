@@ -62,4 +62,12 @@
     Private Sub CheckPackagingToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckPackagingToolStripMenuItem.Click
         FormPackagingChecking.ShowDialog()
     End Sub
+
+    Private Sub MasterToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MasterToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub PelangganToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PelangganToolStripMenuItem.Click
+        FormPelanggan.ShowDialog()
+    End Sub
 End Class

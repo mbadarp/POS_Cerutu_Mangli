@@ -34,6 +34,7 @@ Partial Class FormMenuUtama
         Me.PelangganToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
         Me.BarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CheckPackagingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PembelianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -54,7 +55,6 @@ Partial Class FormMenuUtama
         Me.STLLabel9 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.STLLabel10 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.CheckPackagingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -128,23 +128,29 @@ Partial Class FormMenuUtama
         Me.BarangToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.BarangToolStripMenuItem.Text = "Barang"
         '
+        'CheckPackagingToolStripMenuItem
+        '
+        Me.CheckPackagingToolStripMenuItem.Name = "CheckPackagingToolStripMenuItem"
+        Me.CheckPackagingToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.CheckPackagingToolStripMenuItem.Text = "Check Packaging"
+        '
         'TransaksiToolStripMenuItem
         '
         Me.TransaksiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PenjualanToolStripMenuItem, Me.PembelianToolStripMenuItem})
         Me.TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
-        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
+        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.TransaksiToolStripMenuItem.Text = "Transaksi"
         '
         'PenjualanToolStripMenuItem
         '
         Me.PenjualanToolStripMenuItem.Name = "PenjualanToolStripMenuItem"
-        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
         Me.PenjualanToolStripMenuItem.Text = "Penjualan"
         '
         'PembelianToolStripMenuItem
         '
         Me.PembelianToolStripMenuItem.Name = "PembelianToolStripMenuItem"
-        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
         Me.PembelianToolStripMenuItem.Text = "Pembelian"
         '
         'LaporanToolStripMenuItem
@@ -235,7 +241,7 @@ Partial Class FormMenuUtama
         'STLLabel9
         '
         Me.STLLabel9.Name = "STLLabel9"
-        Me.STLLabel9.Size = New System.Drawing.Size(58, 17)
+        Me.STLLabel9.Size = New System.Drawing.Size(57, 17)
         Me.STLLabel9.Text = "Tanggal : "
         '
         'STLLabel10
@@ -246,12 +252,6 @@ Partial Class FormMenuUtama
         'Timer1
         '
         Me.Timer1.Enabled = True
-        '
-        'CheckPackagingToolStripMenuItem
-        '
-        Me.CheckPackagingToolStripMenuItem.Name = "CheckPackagingToolStripMenuItem"
-        Me.CheckPackagingToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
-        Me.CheckPackagingToolStripMenuItem.Text = "Check Packaging"
         '
         'FormMenuUtama
         '
