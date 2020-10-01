@@ -98,6 +98,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CRPelanggan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPelanggan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CRV_beli.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -115,6 +121,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CRV_strukjual.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormCetakPelanggan.Designer.vb">
+      <DependentUpon>FormCetakPelanggan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCetakPelanggan.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLapPembelian.Designer.vb">
       <DependentUpon>FormLapPembelian.vb</DependentUpon>
@@ -195,6 +207,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CRPelanggan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPelanggan.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRV_beli.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_beli.vb</LastGenOutput>
@@ -206,6 +222,9 @@
     <EmbeddedResource Include="CRV_strukjual.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_strukjual.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCetakPelanggan.resx">
+      <DependentUpon>FormCetakPelanggan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLapPembelian.resx">
       <DependentUpon>FormLapPembelian.vb</DependentUpon>
