@@ -133,6 +133,6 @@ Public Class FormPelanggan
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-        FormCetakPelanggan.ShowDialog()
+        'FormCetakPelanggan.ShowDialog()
     End Sub
 End Class

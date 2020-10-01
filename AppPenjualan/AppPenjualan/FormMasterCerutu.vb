@@ -29,11 +29,12 @@ Public Class FormMasterCerutu
         dgv_datacerutu.ReadOnly = True
     End Sub
     Sub SiapIsi()
-        txt_kodeproduk.Enabled = True
+        txt_kodeproduk.Enabled = False
         txt_rollername.Enabled = True
         txt_jumlahproduk.Enabled = True
         cbo_cigarbrand.Enabled = True
         cbo_cigarsize.Enabled = True
+        dt_produksi.Enabled = True
         cbo_cigarbrand.Items.Add("AL")
         cbo_cigarbrand.Items.Add("BR")
         cbo_cigarbrand.Items.Add("RB")
@@ -56,8 +57,8 @@ Public Class FormMasterCerutu
         If Not Rd.HasRows Then
             UrutanKode = "CRT" + "0001"
         Else
-            Hitung = Microsoft.VisualBasic.Right(Rd.GetString(0), 3) + 1
-            UrutanKode = "CRT" + Microsoft.VisualBasic.Right("0000" & Hitung, 3)
+            Hitung = Microsoft.VisualBasic.Right(Rd.GetString(0), 4) + 1
+            UrutanKode = "CRT" + Microsoft.VisualBasic.Right("0000" & Hitung, 4)
         End If
         txt_kodeproduk.Text = UrutanKode
     End Sub
@@ -82,7 +83,7 @@ Public Class FormMasterCerutu
                 MsgBox("Silahkan isi semua data")
             Else
                 Call Koneksi()
-                Dim InputData As String = "insert into tb_cerutu values('" & cbo_cigarbrand.Text & "','" & cbo_cigarsize.Text & "','" & txt_rollername.Text & "','" & txt_jumlahproduk.Text & "','" & dt_produksi.Text & "')"
+                Dim InputData As String = "insert into tb_cerutu values('" & txt_kodeproduk.Text & "','" & cbo_cigarbrand.Text & "','" & cbo_cigarsize.Text & "','" & txt_rollername.Text & "','" & txt_jumlahproduk.Text & "','" & dt_produksi.Text & "')"
                 Cmd = New OdbcCommand(InputData, Conn)
                 Cmd.ExecuteNonQuery()
                 MsgBox("Input Data Berhasil")
@@ -145,7 +146,7 @@ Public Class FormMasterCerutu
         End If
     End Sub
 
-    Private Sub dgv_datacerutu_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgv_datacerutu.CellContentClick
+    Private Sub dgv_datacerutu_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgv_datacerutu.CellClick
         Dim i As Integer
         i = dgv_datacerutu.CurrentRow.Index
 
@@ -156,4 +157,6 @@ Public Class FormMasterCerutu
         txt_jumlahproduk.Text = dgv_datacerutu.Item(4, i).Value
         dt_produksi.Text = dgv_datacerutu.Item(5, i).Value
     End Sub
+
+    
 End Class
