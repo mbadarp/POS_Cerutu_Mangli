@@ -70,4 +70,8 @@
     Private Sub PelangganToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PelangganToolStripMenuItem.Click
         FormPelanggan.ShowDialog()
     End Sub
+
+    Private Sub SupportMaterialToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SupportMaterialToolStripMenuItem.Click
+        FormSupportMaterial.ShowDialog()
+    End Sub
 End Class

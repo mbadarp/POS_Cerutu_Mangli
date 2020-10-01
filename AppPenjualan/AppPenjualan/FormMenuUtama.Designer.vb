@@ -55,6 +55,7 @@ Partial Class FormMenuUtama
         Me.STLLabel9 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.STLLabel10 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.SupportMaterialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -100,7 +101,7 @@ Partial Class FormMenuUtama
         '
         'MasterToolStripMenuItem
         '
-        Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.PelangganToolStripMenuItem, Me.ToolStripMenuItem2, Me.BarangToolStripMenuItem, Me.CheckPackagingToolStripMenuItem})
+        Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.PelangganToolStripMenuItem, Me.ToolStripMenuItem2, Me.BarangToolStripMenuItem, Me.CheckPackagingToolStripMenuItem, Me.SupportMaterialToolStripMenuItem})
         Me.MasterToolStripMenuItem.Name = "MasterToolStripMenuItem"
         Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
         Me.MasterToolStripMenuItem.Text = "Master"
@@ -253,6 +254,12 @@ Partial Class FormMenuUtama
         '
         Me.Timer1.Enabled = True
         '
+        'SupportMaterialToolStripMenuItem
+        '
+        Me.SupportMaterialToolStripMenuItem.Name = "SupportMaterialToolStripMenuItem"
+        Me.SupportMaterialToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.SupportMaterialToolStripMenuItem.Text = "Support Material"
+        '
         'FormMenuUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -304,5 +311,6 @@ Partial Class FormMenuUtama
     Friend WithEvents PembelianToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LaporanPembelianToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CheckPackagingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SupportMaterialToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

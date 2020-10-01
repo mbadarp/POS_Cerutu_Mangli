@@ -100,3 +100,4 @@ C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Deb
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.Resources.resources
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.vbproj.GenerateResource.Cache
 C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormCetakPelanggan.resources
+C:\Users\b\Documents\pkl\POS_Cerutu_Mangli\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormSupportMaterial.resources

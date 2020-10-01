@@ -82,7 +82,7 @@ Public Class FormPelanggan
                 MsgBox("Silahkan isi semua data")
             Else
                 Call Koneksi()
-                Dim UpdateData As String = "Update tbl_pelanggan set nama_pelangggan='" & TextBox2.Text & "',alamat='" & TextBox3.Text & "',deskripsi='" & TextBox4.Text & "',no_hp='" & TextBox5.Text & "' where kodepelanggan='" & TextBox1.Text & "'"
+                Dim UpdateData As String = "Update tbl_pelanggan set nama_pelanggan='" & TextBox2.Text & "',alamat='" & TextBox3.Text & "',deskripsi='" & TextBox4.Text & "',no_hp='" & TextBox5.Text & "' where kodepelanggan='" & TextBox1.Text & "'"
                 Cmd = New OdbcCommand(UpdateData, Conn)
                 Cmd.ExecuteNonQuery()
                 MsgBox("Update data berhasil")
@@ -134,5 +134,9 @@ Public Class FormPelanggan
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
         FormCetakPelanggan.ShowDialog()
+    End Sub
+
+    Private Sub FormPelanggan_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
