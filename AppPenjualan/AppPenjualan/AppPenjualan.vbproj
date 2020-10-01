@@ -73,6 +73,8 @@
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -121,6 +123,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CRV_strukjual.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CR_Pel.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_Pel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormCetakPel.Designer.vb">
+      <DependentUpon>FormCetakPel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCetakPel.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCetakQualityControl2.Designer.vb">
       <DependentUpon>FormCetakQualityControl2.vb</DependentUpon>
@@ -234,6 +248,13 @@
     <EmbeddedResource Include="CRV_strukjual.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_strukjual.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CR_Pel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_Pel.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCetakPel.resx">
+      <DependentUpon>FormCetakPel.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCetakQualityControl2.resx">
       <DependentUpon>FormCetakQualityControl2.vb</DependentUpon>
