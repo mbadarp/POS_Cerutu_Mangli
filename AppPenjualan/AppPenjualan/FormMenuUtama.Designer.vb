@@ -30,13 +30,14 @@ Partial Class FormMenuUtama
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SupportMaterialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PelangganToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
         Me.BarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CheckPackagingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SupportMaterialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CerutuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SupportMaterialToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PembelianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -57,7 +58,7 @@ Partial Class FormMenuUtama
         Me.STLLabel9 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.STLLabel10 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.SupportMaterialToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SiapJualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -103,10 +104,16 @@ Partial Class FormMenuUtama
         '
         'MasterToolStripMenuItem
         '
-        Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SupportMaterialToolStripMenuItem, Me.AdminToolStripMenuItem, Me.PelangganToolStripMenuItem, Me.ToolStripMenuItem2, Me.BarangToolStripMenuItem, Me.CheckPackagingToolStripMenuItem, Me.CerutuToolStripMenuItem, Me.SupportMaterialToolStripMenuItem1})
+        Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SupportMaterialToolStripMenuItem, Me.AdminToolStripMenuItem, Me.PelangganToolStripMenuItem, Me.ToolStripMenuItem2, Me.BarangToolStripMenuItem, Me.CheckPackagingToolStripMenuItem, Me.CerutuToolStripMenuItem, Me.SupportMaterialToolStripMenuItem1, Me.SiapJualToolStripMenuItem})
         Me.MasterToolStripMenuItem.Name = "MasterToolStripMenuItem"
         Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
         Me.MasterToolStripMenuItem.Text = "Master"
+        '
+        'SupportMaterialToolStripMenuItem
+        '
+        Me.SupportMaterialToolStripMenuItem.Name = "SupportMaterialToolStripMenuItem"
+        Me.SupportMaterialToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.SupportMaterialToolStripMenuItem.Text = "Support Material"
         '
         'AdminToolStripMenuItem
         '
@@ -137,23 +144,23 @@ Partial Class FormMenuUtama
         Me.CheckPackagingToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.CheckPackagingToolStripMenuItem.Text = "Check Packaging"
         '
-        'SupportMaterialToolStripMenuItem
-        '
-        Me.SupportMaterialToolStripMenuItem.Name = "SupportMaterialToolStripMenuItem"
-        Me.SupportMaterialToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
-        Me.SupportMaterialToolStripMenuItem.Text = "Support Material"
-        '
         'CerutuToolStripMenuItem
         '
         Me.CerutuToolStripMenuItem.Name = "CerutuToolStripMenuItem"
         Me.CerutuToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.CerutuToolStripMenuItem.Text = "Cerutu"
         '
+        'SupportMaterialToolStripMenuItem1
+        '
+        Me.SupportMaterialToolStripMenuItem1.Name = "SupportMaterialToolStripMenuItem1"
+        Me.SupportMaterialToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
+        Me.SupportMaterialToolStripMenuItem1.Text = "Support Material"
+        '
         'TransaksiToolStripMenuItem
         '
         Me.TransaksiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PenjualanToolStripMenuItem, Me.PembelianToolStripMenuItem})
         Me.TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
-        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
+        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
         Me.TransaksiToolStripMenuItem.Text = "Transaksi"
         '
         'PenjualanToolStripMenuItem
@@ -256,7 +263,7 @@ Partial Class FormMenuUtama
         'STLLabel9
         '
         Me.STLLabel9.Name = "STLLabel9"
-        Me.STLLabel9.Size = New System.Drawing.Size(57, 17)
+        Me.STLLabel9.Size = New System.Drawing.Size(58, 17)
         Me.STLLabel9.Text = "Tanggal : "
         '
         'STLLabel10
@@ -268,11 +275,11 @@ Partial Class FormMenuUtama
         '
         Me.Timer1.Enabled = True
         '
-        'SupportMaterialToolStripMenuItem1
+        'SiapJualToolStripMenuItem
         '
-        Me.SupportMaterialToolStripMenuItem1.Name = "SupportMaterialToolStripMenuItem1"
-        Me.SupportMaterialToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
-        Me.SupportMaterialToolStripMenuItem1.Text = "Support Material"
+        Me.SiapJualToolStripMenuItem.Name = "SiapJualToolStripMenuItem"
+        Me.SiapJualToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.SiapJualToolStripMenuItem.Text = "Siap Jual"
         '
         'FormMenuUtama
         '
@@ -330,6 +337,7 @@ Partial Class FormMenuUtama
 
     Friend WithEvents CerutuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SupportMaterialToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SiapJualToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 
 End Class

@@ -104,6 +104,12 @@
       <DependentUpon>CRV_beli.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CRV_DataCerutu.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRV_DataCerutu.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CRV_lapjual.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -121,6 +127,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CRV_strukjual.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormCetakDataCerutu.Designer.vb">
+      <DependentUpon>FormCetakDataCerutu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCetakDataCerutu.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCetakQualityControl2.Designer.vb">
       <DependentUpon>FormCetakQualityControl2.vb</DependentUpon>
@@ -183,12 +195,6 @@
     <Compile Include="FormPelanggan.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSupportMaterial.Designer.vb">
-      <DependentUpon>FormSupportMaterial.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormSupportMaterial.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="FormTransBeli.Designer.vb">
       <DependentUpon>FormTransBeli.vb</DependentUpon>
     </Compile>
@@ -223,6 +229,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_beli.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CRV_DataCerutu.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRV_DataCerutu.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRV_lapjual.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_lapjual.vb</LastGenOutput>
@@ -234,6 +244,9 @@
     <EmbeddedResource Include="CRV_strukjual.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRV_strukjual.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCetakDataCerutu.resx">
+      <DependentUpon>FormCetakDataCerutu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCetakQualityControl2.resx">
       <DependentUpon>FormCetakQualityControl2.vb</DependentUpon>
@@ -264,9 +277,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPelanggan.resx">
       <DependentUpon>FormPelanggan.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormSupportMaterial.resx">
-      <DependentUpon>FormSupportMaterial.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTransBeli.resx">
       <DependentUpon>FormTransBeli.vb</DependentUpon>

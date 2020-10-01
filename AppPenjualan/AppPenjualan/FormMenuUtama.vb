@@ -63,9 +63,7 @@
         FormPackagingChecking.ShowDialog()
     End Sub
 
-    Private Sub MasterToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MasterToolStripMenuItem.Click
-
-    End Sub
+    
 
     Private Sub PelangganToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PelangganToolStripMenuItem.Click
         FormPelanggan.ShowDialog()
@@ -73,7 +71,7 @@
 
 
     Private Sub SupportMaterialToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SupportMaterialToolStripMenuItem.Click
-        FormSupportMaterial.ShowDialog()
+        'FormSupportMaterial.ShowDialog()
 
     End Sub
     Private Sub CerutuToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CerutuToolStripMenuItem.Click
@@ -82,6 +80,6 @@
     End Sub
 
     Private Sub SupportMaterialToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SupportMaterialToolStripMenuItem1.Click
-        FormSupportMaterial.ShowDialog()
+        'FormSupportMaterial.ShowDialog()
     End Sub
 End Class

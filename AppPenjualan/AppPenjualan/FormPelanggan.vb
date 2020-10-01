@@ -133,14 +133,12 @@ Public Class FormPelanggan
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-<<<<<<< HEAD
         'FormCetakPelanggan.ShowDialog()
-=======
-        FormCetakPel.ShowDialog()
+        'FormCetakPel.ShowDialog()
     End Sub
 
     Private Sub FormPelanggan_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
->>>>>>> 448840698a8960a32a3c55c9396f157bff530dd3
+
     End Sub
 End Class
