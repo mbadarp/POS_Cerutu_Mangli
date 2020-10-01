@@ -70,4 +70,9 @@
     Private Sub PelangganToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PelangganToolStripMenuItem.Click
         FormPelanggan.ShowDialog()
     End Sub
+
+   
+    Private Sub CerutuToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CerutuToolStripMenuItem.Click
+        FormMasterCerutu.ShowDialog()
+    End Sub
 End Class

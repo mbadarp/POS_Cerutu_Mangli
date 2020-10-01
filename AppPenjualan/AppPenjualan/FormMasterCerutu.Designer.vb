@@ -29,7 +29,7 @@ Partial Class FormMasterCerutu
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.cbo_cigarbrand = New System.Windows.Forms.ComboBox()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.dgv_datacerutu = New System.Windows.Forms.DataGridView()
         Me.cbo_cigarsize = New System.Windows.Forms.ComboBox()
         Me.dt_produksi = New System.Windows.Forms.DateTimePicker()
         Me.txt_kodeproduk = New System.Windows.Forms.TextBox()
@@ -40,7 +40,8 @@ Partial Class FormMasterCerutu
         Me.btn_hapus = New System.Windows.Forms.Button()
         Me.btn_tutup = New System.Windows.Forms.Button()
         Me.btn_cetak = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label6 = New System.Windows.Forms.Label()
+        CType(Me.dgv_datacerutu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label20
@@ -105,13 +106,13 @@ Partial Class FormMasterCerutu
         Me.cbo_cigarbrand.Size = New System.Drawing.Size(121, 21)
         Me.cbo_cigarbrand.TabIndex = 28
         '
-        'DataGridView1
+        'dgv_datacerutu
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 266)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(732, 251)
-        Me.DataGridView1.TabIndex = 29
+        Me.dgv_datacerutu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv_datacerutu.Location = New System.Drawing.Point(12, 266)
+        Me.dgv_datacerutu.Name = "dgv_datacerutu"
+        Me.dgv_datacerutu.Size = New System.Drawing.Size(732, 251)
+        Me.dgv_datacerutu.TabIndex = 29
         '
         'cbo_cigarsize
         '
@@ -197,11 +198,22 @@ Partial Class FormMasterCerutu
         Me.btn_cetak.Text = "Cetak"
         Me.btn_cetak.UseVisualStyleBackColor = True
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(295, 9)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(160, 18)
+        Me.Label6.TabIndex = 40
+        Me.Label6.Text = "Form Master Cerutu"
+        '
         'FormMasterCerutu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(756, 529)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.btn_cetak)
         Me.Controls.Add(Me.btn_tutup)
         Me.Controls.Add(Me.btn_hapus)
@@ -212,7 +224,7 @@ Partial Class FormMasterCerutu
         Me.Controls.Add(Me.txt_kodeproduk)
         Me.Controls.Add(Me.dt_produksi)
         Me.Controls.Add(Me.cbo_cigarsize)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.dgv_datacerutu)
         Me.Controls.Add(Me.cbo_cigarbrand)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -222,7 +234,7 @@ Partial Class FormMasterCerutu
         Me.Controls.Add(Me.Label20)
         Me.Name = "FormMasterCerutu"
         Me.Text = "FormMasterCerutu"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgv_datacerutu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -234,7 +246,7 @@ Partial Class FormMasterCerutu
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents cbo_cigarbrand As System.Windows.Forms.ComboBox
-    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgv_datacerutu As System.Windows.Forms.DataGridView
     Friend WithEvents cbo_cigarsize As System.Windows.Forms.ComboBox
     Friend WithEvents dt_produksi As System.Windows.Forms.DateTimePicker
     Friend WithEvents txt_kodeproduk As System.Windows.Forms.TextBox
@@ -245,4 +257,5 @@ Partial Class FormMasterCerutu
     Friend WithEvents btn_hapus As System.Windows.Forms.Button
     Friend WithEvents btn_tutup As System.Windows.Forms.Button
     Friend WithEvents btn_cetak As System.Windows.Forms.Button
+    Friend WithEvents Label6 As System.Windows.Forms.Label
 End Class

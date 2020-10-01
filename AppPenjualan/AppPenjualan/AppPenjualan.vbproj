@@ -152,6 +152,12 @@
     <Compile Include="FormMasterAdmin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormMasterCerutu.Designer.vb">
+      <DependentUpon>FormMasterCerutu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterCerutu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMenuUtama.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -237,6 +243,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMasterAdmin.resx">
       <DependentUpon>FormMasterAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterCerutu.resx">
+      <DependentUpon>FormMasterCerutu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuUtama.resx">
       <DependentUpon>FormMenuUtama.vb</DependentUpon>
